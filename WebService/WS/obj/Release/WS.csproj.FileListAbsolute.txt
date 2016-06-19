@@ -1,0 +1,6 @@
+c:\users\misael\documents\visual studio 2013\Projects\WebService\WS\bin\WS.dll.config
+c:\users\misael\documents\visual studio 2013\Projects\WebService\WS\bin\WS.dll
+c:\users\misael\documents\visual studio 2013\Projects\WebService\WS\bin\WS.pdb
+c:\users\misael\documents\visual studio 2013\Projects\WebService\WS\obj\Release\WS.csprojResolveAssemblyReference.cache
+c:\users\misael\documents\visual studio 2013\Projects\WebService\WS\obj\Release\WS.dll
+c:\users\misael\documents\visual studio 2013\Projects\WebService\WS\obj\Release\WS.pdb
