@@ -1,0 +1,22 @@
+﻿body {
+}
+
+thead {
+    border-bottom: 1px solid black;
+}
+
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-family: Verdana;
+    font-size: 10px;
+}
+
+td, tr {
+    border: 0px;
+}
+
+th {
+    border-left: 0px;
+    border-right: 0px;
+}
