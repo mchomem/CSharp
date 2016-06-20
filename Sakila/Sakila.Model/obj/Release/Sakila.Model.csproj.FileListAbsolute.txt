@@ -1,0 +1,4 @@
+C:\Users\misael.homem\documents\visual studio 2013\Projects\Sakila\Sakila.Model\bin\Release\Sakila.Model.dll
+C:\Users\misael.homem\documents\visual studio 2013\Projects\Sakila\Sakila.Model\bin\Release\Sakila.Model.pdb
+C:\Users\misael.homem\documents\visual studio 2013\Projects\Sakila\Sakila.Model\obj\Release\Sakila.Model.dll
+C:\Users\misael.homem\documents\visual studio 2013\Projects\Sakila\Sakila.Model\obj\Release\Sakila.Model.pdb

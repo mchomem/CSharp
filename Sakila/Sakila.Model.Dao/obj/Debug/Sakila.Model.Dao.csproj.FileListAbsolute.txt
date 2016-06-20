@@ -1,0 +1,11 @@
+C:\Users\misael.homem\documents\visual studio 2013\Projects\Sakila\Sakila.Model.Dao\bin\Debug\Sakila.Model.Dao.dll
+C:\Users\misael.homem\documents\visual studio 2013\Projects\Sakila\Sakila.Model.Dao\bin\Debug\Sakila.Model.Dao.pdb
+C:\Users\misael.homem\documents\visual studio 2013\Projects\Sakila\Sakila.Model.Dao\bin\Debug\Sakila.Model.Dao.Generic.dll
+C:\Users\misael.homem\documents\visual studio 2013\Projects\Sakila\Sakila.Model.Dao\bin\Debug\Sakila.Model.Dao.Interface.dll
+C:\Users\misael.homem\documents\visual studio 2013\Projects\Sakila\Sakila.Model.Dao\bin\Debug\Sakila.Model.dll
+C:\Users\misael.homem\documents\visual studio 2013\Projects\Sakila\Sakila.Model.Dao\bin\Debug\Sakila.Model.Dao.Generic.pdb
+C:\Users\misael.homem\documents\visual studio 2013\Projects\Sakila\Sakila.Model.Dao\bin\Debug\Sakila.Model.Dao.Interface.pdb
+C:\Users\misael.homem\documents\visual studio 2013\Projects\Sakila\Sakila.Model.Dao\bin\Debug\Sakila.Model.pdb
+C:\Users\misael.homem\documents\visual studio 2013\Projects\Sakila\Sakila.Model.Dao\obj\Debug\Sakila.Model.Dao.csprojResolveAssemblyReference.cache
+C:\Users\misael.homem\documents\visual studio 2013\Projects\Sakila\Sakila.Model.Dao\obj\Debug\Sakila.Model.Dao.dll
+C:\Users\misael.homem\documents\visual studio 2013\Projects\Sakila\Sakila.Model.Dao\obj\Debug\Sakila.Model.Dao.pdb

@@ -1,0 +1,5 @@
+C:\Users\misael.homem\documents\visual studio 2013\Projects\Sakila\Sakila.Controller\bin\Debug\Sakila.Controller.dll
+C:\Users\misael.homem\documents\visual studio 2013\Projects\Sakila\Sakila.Controller\bin\Debug\Sakila.Controller.pdb
+C:\Users\misael.homem\documents\visual studio 2013\Projects\Sakila\Sakila.Controller\obj\Debug\Sakila.Controller.dll
+C:\Users\misael.homem\documents\visual studio 2013\Projects\Sakila\Sakila.Controller\obj\Debug\Sakila.Controller.pdb
+C:\Users\misael.homem\documents\visual studio 2013\Projects\Sakila\Sakila.Controller\obj\Debug\Sakila.Controller.csprojResolveAssemblyReference.cache

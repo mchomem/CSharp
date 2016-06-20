@@ -1,0 +1,4 @@
+C:\Users\misael.homem\documents\visual studio 2013\Projects\Sakila\Sakila.Controller\bin\Release\Sakila.Controller.dll
+C:\Users\misael.homem\documents\visual studio 2013\Projects\Sakila\Sakila.Controller\bin\Release\Sakila.Controller.pdb
+C:\Users\misael.homem\documents\visual studio 2013\Projects\Sakila\Sakila.Controller\obj\Release\Sakila.Controller.dll
+C:\Users\misael.homem\documents\visual studio 2013\Projects\Sakila\Sakila.Controller\obj\Release\Sakila.Controller.pdb

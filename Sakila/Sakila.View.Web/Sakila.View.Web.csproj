@@ -1,0 +1,223 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{67065352-481C-4A8B-9854-D6E80A128547}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Sakila.View.Web</RootNamespace>
+    <AssemblyName>Sakila.View.Web</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Actor.aspx" />
+    <Content Include="ActorEdit.ascx" />
+    <Content Include="ConfirmDialog.ascx" />
+    <Content Include="Global.asax" />
+    <Content Include="Home.aspx" />
+    <Content Include="Login.aspx" />
+    <Content Include="MessageDialog.ascx" />
+    <Content Include="Scripts\jquery-1.12.2.js" />
+    <Content Include="Scripts\Tools\Cipher.js" />
+    <Content Include="Styles\bootstrap-3.3.6-dist\css\bootstrap-theme.css" />
+    <Content Include="Styles\bootstrap-3.3.6-dist\css\bootstrap-theme.min.css" />
+    <Content Include="Styles\bootstrap-3.3.6-dist\css\bootstrap.css" />
+    <Content Include="Styles\bootstrap-3.3.6-dist\css\bootstrap.min.css" />
+    <Content Include="Styles\bootstrap-3.3.6-dist\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Styles\bootstrap-3.3.6-dist\js\bootstrap.js" />
+    <Content Include="Styles\bootstrap-3.3.6-dist\js\bootstrap.min.js" />
+    <Content Include="Styles\bootstrap-3.3.6-dist\js\npm.js" />
+    <Content Include="Styles\Login.css" />
+    <Content Include="Tools\Cipher.aspx" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Actor.aspx.cs">
+      <DependentUpon>Actor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Actor.aspx.designer.cs">
+      <DependentUpon>Actor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ActorEdit.ascx.cs">
+      <DependentUpon>ActorEdit.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ActorEdit.ascx.designer.cs">
+      <DependentUpon>ActorEdit.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="ConfirmDialog.ascx.cs">
+      <DependentUpon>ConfirmDialog.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ConfirmDialog.ascx.designer.cs">
+      <DependentUpon>ConfirmDialog.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Handlers\ListActors.ashx.cs">
+      <DependentUpon>ListActors.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Home.aspx.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Home.aspx.designer.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MessageDialog.ascx.cs">
+      <DependentUpon>MessageDialog.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MessageDialog.ascx.designer.cs">
+      <DependentUpon>MessageDialog.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Site.Master.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site.Master.designer.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Tools\Cipher.aspx.cs">
+      <DependentUpon>Cipher.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Tools\Cipher.aspx.designer.cs">
+      <DependentUpon>Cipher.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Styles\bootstrap-3.3.6-dist\css\bootstrap-theme.css.map" />
+    <Content Include="Styles\bootstrap-3.3.6-dist\css\bootstrap-theme.min.css.map" />
+    <Content Include="Styles\bootstrap-3.3.6-dist\css\bootstrap.css.map" />
+    <Content Include="Styles\bootstrap-3.3.6-dist\css\bootstrap.min.css.map" />
+    <Content Include="Styles\bootstrap-3.3.6-dist\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Styles\bootstrap-3.3.6-dist\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="Styles\bootstrap-3.3.6-dist\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="Styles\bootstrap-3.3.6-dist\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="Site.Master" />
+    <Content Include="Handlers\ListActors.ashx" />
+    <None Include="Properties\PublishProfiles\Sakila.Prd.pubxml" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Sakila.Controller\Sakila.Controller.csproj">
+      <Project>{d903cb18-5e9d-4073-b1ef-42e5d1307bb3}</Project>
+      <Name>Sakila.Controller</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Sakila.Model.Business\Sakila.Model.Business.csproj">
+      <Project>{4f4812e7-5bc4-4822-9ff9-5379842e37af}</Project>
+      <Name>Sakila.Model.Business</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Sakila.Model.Dao.Generic\Sakila.Model.Dao.Generic.csproj">
+      <Project>{bdb7d91a-1e8c-4f1c-abf8-49c23b8aa9c9}</Project>
+      <Name>Sakila.Model.Dao.Generic</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Sakila.Model.Dao.Interface\Sakila.Model.Dao.Interface.csproj">
+      <Project>{d89cdea4-217f-4c32-b21e-984b8a4f3234}</Project>
+      <Name>Sakila.Model.Dao.Interface</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Sakila.Model.Dao\Sakila.Model.Dao.csproj">
+      <Project>{4bcbb10e-5d37-436a-9129-f5b253bd58a5}</Project>
+      <Name>Sakila.Model.Dao</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Sakila.Model\Sakila.Model.csproj">
+      <Project>{88145a54-3272-49ae-8eef-d49a18f03eee}</Project>
+      <Name>Sakila.Model</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>51800</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:51800/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

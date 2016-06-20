@@ -1,0 +1,7 @@
+C:\Users\misael.homem\documents\visual studio 2013\Projects\Sakila\Sakila.Model.Dao.Generic\bin\Release\Sakila.Model.Dao.Generic.dll
+C:\Users\misael.homem\documents\visual studio 2013\Projects\Sakila\Sakila.Model.Dao.Generic\bin\Release\Sakila.Model.Dao.Generic.pdb
+C:\Users\misael.homem\documents\visual studio 2013\Projects\Sakila\Sakila.Model.Dao.Generic\bin\Release\Sakila.Model.dll
+C:\Users\misael.homem\documents\visual studio 2013\Projects\Sakila\Sakila.Model.Dao.Generic\bin\Release\Sakila.Model.pdb
+C:\Users\misael.homem\documents\visual studio 2013\Projects\Sakila\Sakila.Model.Dao.Generic\obj\Release\Sakila.Model.Dao.Generic.csprojResolveAssemblyReference.cache
+C:\Users\misael.homem\documents\visual studio 2013\Projects\Sakila\Sakila.Model.Dao.Generic\obj\Release\Sakila.Model.Dao.Generic.dll
+C:\Users\misael.homem\documents\visual studio 2013\Projects\Sakila\Sakila.Model.Dao.Generic\obj\Release\Sakila.Model.Dao.Generic.pdb

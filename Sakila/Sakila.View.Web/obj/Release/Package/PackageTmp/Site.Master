@@ -1,0 +1,52 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="Sakila.View.Web.Site" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head runat="server">
+        <script type="text/javascript" src="Scripts/jquery-1.12.2.js"></script>
+        <script type="text/javascript" src="Styles/bootstrap-3.3.6-dist/js/bootstrap.js"></script>
+        <link href="Styles/bootstrap-3.3.6-dist/css/bootstrap.css" rel="stylesheet" />
+        <title>Sakila</title>
+        <asp:ContentPlaceHolder ID="head" runat="server"></asp:ContentPlaceHolder>
+    </head>
+    <body>
+        <header></header>
+        
+        <nav class="navbar navbar-default">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="Home.aspx">Sakila</a>
+                </div>
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li role="presentation" class="active"><a href="Home.aspx">Home</a></li>
+                        <li role="presentation" class="active">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Cadastros <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="Actor.aspx">Ator</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="Actor.aspx">Ator</a></li>
+                            </ul>
+                        </li>
+                        <li role="presentation" class="active"><a href="Login.aspx">Sair</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <section>
+            <form id="frmSite" runat="server">
+                <asp:ScriptManager ID="ScriptManager" runat="server"></asp:ScriptManager>
+                <div>
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolderSite" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+            </form>
+        </section>
+
+        <footer>
+            Copyright 2016 © MCH
+        </footer>
+    </body>
+</html>
